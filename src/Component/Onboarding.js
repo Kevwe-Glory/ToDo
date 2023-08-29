@@ -12,7 +12,12 @@ const Onboarding = () => {
                     <h5 className='text-xl font-semibold rounded-full py-2 px-4 mt-4'>
                         Stay organized and in control with our powerful to-do app. Whether you're tackling a busy day, planning a project, or simply keeping track of your tasks, we're here to help streamline your productivity journey.
                     </h5>
-                <Link to='/account'>
+                {/* <Link to='/account'>
+                    <button className='bg-red text-white border rounded-full py-2 px-4 mt-4'>
+                        <img src={arrowRight} alt="Arrow Right" className='w-7 h-7 mr-2 inline' />
+                    </button>
+                </Link> */}
+                <Link to='/home'>
                     <button className='bg-red text-white border rounded-full py-2 px-4 mt-4'>
                         <img src={arrowRight} alt="Arrow Right" className='w-7 h-7 mr-2 inline' />
                     </button>
