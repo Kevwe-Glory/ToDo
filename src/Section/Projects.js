@@ -26,10 +26,10 @@ const App = () => {
     const percentage = (completedTasks.length / tasks.length) * 100;
 
     return (
-        <div className="container mx-auto px-4 py-8">
-          <ProgressCard percentage={percentage} />
-          <h1 className="text-2xl font-semibold m-4">Task Tracker</h1>
-          <TaskList tasks={tasks} completeTask={completeTask} addTask={addTask} />
+        <div className="container mx-auto px-4 m-0 py-8">
+            <ProgressCard percentage={percentage} />
+            <h1 className="text-2xl font-semibold m-4">Task Tracker</h1>
+            <TaskList tasks={tasks} completeTask={completeTask} addTask={addTask} />
         </div>
     );
 };

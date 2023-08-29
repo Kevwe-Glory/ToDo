@@ -5,10 +5,10 @@ import { Profile,  Projects } from '../Section/index';
 const Home = () => {
     return (
         <main className='box-border h-600 w-600 p-4 border-4'>
-            <section className='padding'>
+            <section className='p-8  m-0'>
                 <Profile />
             </section>
-            <section className='padding'>
+            <section className='p-8 m-0'>
                 <Projects />
             </section>
             <Nav />
