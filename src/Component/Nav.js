@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import search from '../asset/icon/search.png';
-import setting from '../asset/icon/setting.png';
+// import search from '../asset/icon/search.png';
+// import setting from '../asset/icon/setting.png';
 import home from '../asset/icon/home.png';
 
 const Nav = () => {
@@ -18,7 +18,7 @@ const Nav = () => {
                     <img src={home} alt="Home" className="w-6 h-6" />
                 </li>
                 </NavLink>
-                <NavLink
+                {/* <NavLink
                     to="/search"
                     id="search"
                     className="flex items-center"
@@ -26,8 +26,8 @@ const Nav = () => {
                     <li>
                         <img src={search} alt="Search" className="w-6 h-6" />
                     </li>
-                </NavLink>
-                <NavLink
+                </NavLink> */}
+                {/* <NavLink
                     to="/setting"
                     id="setting"
                     className="text-white flex items-center"
@@ -35,7 +35,7 @@ const Nav = () => {
                     <li>
                         <img src={setting} alt="Setting" className="w-6 h-6" />
                     </li>
-                </NavLink>
+                </NavLink> */}
             </ul>
         </nav>
     );
